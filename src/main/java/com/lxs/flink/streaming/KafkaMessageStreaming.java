@@ -75,7 +75,6 @@ public class KafkaMessageStreaming {
         if (out.exists()) {
             out.delete();
         }
-
         counts.writeAsText(outPath, FileSystem.WriteMode.NO_OVERWRITE);
         env.setParallelism(1);
         try {
