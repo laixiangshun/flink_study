@@ -1,4 +1,4 @@
-package com.lxs.flink.source;
+package com.lxs.flink.source.mysql;
 
 import com.lxs.flink.model.Student;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;

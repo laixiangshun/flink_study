@@ -1,4 +1,4 @@
-package com.lxs.flink.sink;
+package com.lxs.flink.sink.mysql;
 
 import com.lxs.flink.model.Student;
 import org.apache.flink.configuration.Configuration;

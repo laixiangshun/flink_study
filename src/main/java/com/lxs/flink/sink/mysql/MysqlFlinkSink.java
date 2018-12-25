@@ -1,4 +1,4 @@
-package com.lxs.flink.sink;
+package com.lxs.flink.sink.mysql;
 
 import com.lxs.flink.model.Student;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
@@ -6,7 +6,6 @@ import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMap
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
-import org.apache.flink.streaming.api.functions.sink.PrintSinkFunction;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer011;
 
 import java.util.Properties;
